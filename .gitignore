@@ -1,0 +1,33 @@
+@"
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.rsuser
+
+# Build output
+[Bb]in/
+[Oo]bj/
+artifacts/
+
+# Test results
+TestResults/
+coverage/
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Set-Content ".gitignore"
